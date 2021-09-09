@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="435.858" Width="845">
+    <Grid RenderTransformOrigin="0.69,0.555" Margin="0,0,-8,-21" Height="439" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="478*"/>
+            <ColumnDefinition Width="367*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Calendar HorizontalAlignment="Left" Margin="160.857,71,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="83,92,0,0" VerticalAlignment="Top" Width="233" Height="26"/>
+        <Label Content="USER NAME" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1,93,0,0" Width="142"/>
+        <Label Content="              ARID UNIVERSITY ISLAMABAD" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="488" Margin="153,24,0,0" Grid.ColumnSpan="2"/>
+        <Button Content="SIGN IN" HorizontalAlignment="Left" Margin="371,164,0,0" VerticalAlignment="Top" Width="92" Height="24"/>
+        <PasswordBox HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Content="PASSWORD" HorizontalAlignment="Left" Margin="-1,122,0,0" VerticalAlignment="Top" RenderTransformOrigin="-16.711,-0.824" Width="171"/>
+        <PasswordBox HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="83,124,0,0" VerticalAlignment="Top" Width="233" Height="27"/>
+    </Grid>
+</Window>
