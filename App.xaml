@@ -1,7 +1,7 @@
-﻿<Application x:Class="DESTOP_CLIENT_APPLICATION.App"
+﻿<Application x:Class="DESKTOP_APPLICATION_WITH_LINK_PROVIDER.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:DESTOP_CLIENT_APPLICATION"
+             xmlns:local="clr-namespace:DESKTOP_APPLICATION_WITH_LINK_PROVIDER"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

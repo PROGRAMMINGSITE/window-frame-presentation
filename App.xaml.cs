@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace DESTOP_CLIENT_APPLICATION
+namespace DESKTOP_APPLICATION_WITH_LINK_PROVIDER
 {
     /// <summary>
     /// Interaction logic for App.xaml
